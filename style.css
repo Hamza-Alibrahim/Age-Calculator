@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    height: 100vh;
+}
+
+.age-container {
+    margin: 10%;
+    width: 100%;
+    max-width: 700px;
+}
+
+.age-container h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.age-container h1 span {
+    color: yellow;
+}
+
+.age-input {
+    padding: 20px;
+    background-color: rgb(255 255 255 / 30%);
+    display: flex;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.age-input input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.age-input input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.age-input button {
+    width: fit-content;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.your-age {
+    color: #fff;
+    font-size: 20px;
+}
+
+.your-age span {
+    color: yellow;
+}
